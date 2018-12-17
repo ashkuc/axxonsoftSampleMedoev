@@ -1,0 +1,28 @@
+//{
+//  "presets": [
+//    "es2015",
+//    "stage-0",
+//    "react"
+//  ]
+//}
+
+//{
+//  "presets": [["env", {"modules": false}], "react"],
+//  "env": {
+//    "test": {
+//      "presets": [["env"], "react"]
+//    }
+//  }
+//}
+
+//
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
+
+//{
+//  "presets": ["env", "react"]
+//}

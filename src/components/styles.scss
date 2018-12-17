@@ -1,0 +1,57 @@
+.horizontal-scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .frame {
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+
+    .time {
+      font-weight: bold;
+    }
+
+    .image-wrap {
+      width: 200px;
+      height: 200px;
+      .image {
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+        pointer-events: none;
+        line-height: 100px;
+        text-align: center;
+      }
+    }
+
+    .status {
+      height: 15px;
+      border: 1px solid black;
+      background-color: deepskyblue;
+    }
+
+    &.missed {
+      .image-wrap {
+        background-color: salmon;
+      }
+
+      .message {
+        padding-top: 90px;
+        margin-bottom: 75px;
+      }
+
+      .status {
+        background-color: white;
+      }
+    }
+  }
+
+}
