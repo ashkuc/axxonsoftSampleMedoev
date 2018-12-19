@@ -52,7 +52,6 @@ export default class Frame extends React.PureComponent {
 }
 
 Frame.propTypes = {
-    // timestamp: propTypes.number.isRequired,
     url: propTypes.string.isRequired,
     time: propTypes.string.isRequired
 };

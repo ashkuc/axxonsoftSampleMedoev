@@ -1,8 +1,3 @@
-// var username = 'root';
-// var password = 'root';
-//
-// export const apiUrl = 'http://localhost:9000/asip-api';
-
 export const stateNamesMap = {
     connected: 'подключено',
     disconnected: 'отключено',

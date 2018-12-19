@@ -1,13 +1,12 @@
 import React from "react";
-import './styles.scss';
-import { compose, formatToHourMinute, getImageUrl, getTargetValue, getVideoSources } from '../lib';
+import { formatToHourMinute, getImageUrl, getVideoSources } from '../lib';
 import VideoFrame from './Frame';
 import HorizontalScrollContainer from './HorizontalScrollContainer';
 import VideoSourceSelect from './VideoSourceSelect';
+import './styles.scss';
 
 
 const minute = 60 * 1000;
-
 
 export default class App extends React.Component {
     constructor(props) {
